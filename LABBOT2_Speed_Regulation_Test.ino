@@ -5,8 +5,8 @@
 
 #include "Board.h"
 #include "PushButton_Simple.h"
-#include "PushButton.h" //Use timer2
-#include "Joystick.h"
+//#include "PushButton.h" //Use timer2
+//#include "Joystick.h"
 #include "Motor_Regulator.h"
 #include "pitches.h"
 //
@@ -14,8 +14,8 @@
 Board LABBOT_Board;
 //Input:
 PushButton_Simple startButton;
-PushButton pushButton1, pushButton2;
-Joystick joystick;
+//PushButton pushButton1, pushButton2;
+//Joystick joystick;
 //Output:
 Motor_Regulator motor1, motor2;
 // Create a Software serial object.
